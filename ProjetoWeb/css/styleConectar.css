@@ -1,0 +1,34 @@
+body { display: grid; grid-template-rows: max-content auto; height: 100%; width: 100%; position: fixed; }
+
+.topo {
+	background: rgba(0,51,101, 1);
+	text-align: center;
+	align-items: center;
+}
+.topo-titulo {
+	color: #fff;
+	font-size: 40px
+}
+.topo-menu {
+	color: #fff;
+}
+.formConectar {
+	margin: 0 auto;
+	display: grid;
+	height: 100%;
+	align-items: center;
+}
+.formConectar button {
+	width: 100%;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.formConectar label {
+	font-size: 1.6rem !important;
+	font-weight: bold
+}
+.formConectar input {
+	height: auto;
+	font-size: 1.5rem
+}

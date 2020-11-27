@@ -1,0 +1,44 @@
+body { display: grid; grid-template-rows: max-content auto; height: 100%; width: 100%; position: fixed; }
+
+.topo {
+	background: rgba(0,51,101, 1);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.topo-titulo {
+	color: #fff;
+	font-size: 40px
+}
+.topo-menu {
+	color: #fff;
+}
+.formCadastrar {
+	margin: 0 auto;
+	display: grid;
+	height: 100%;
+	align-items: center;
+}
+.campos {
+}
+.form-group {
+	padding: 10px;
+	width: 100%
+}
+.formCadastrar button {
+	width: 100%;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.formCadastrar label {
+	font-size: 1.6rem !important;
+	font-weight: bold;
+	padding: 0 0 0 2%
+}
+.formCadastrar input, .formCadastrar select {
+	height: auto;
+	font-size: 1.5rem;
+	width: 95%;
+	margin: auto;
+}

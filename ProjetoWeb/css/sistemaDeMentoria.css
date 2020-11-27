@@ -1,0 +1,66 @@
+body { display: grid; grid-template-rows: max-content auto; height: 100%; width: 100%; position: fixed; }
+
+.topo {
+	background: rgba(0,51,101, 1);
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	align-items: center;
+}
+.topo-titulo {
+	color: #fff;
+	font-size: 40px
+}
+
+.topo-menu {
+	color: #fff;
+}
+
+.topo-logo{
+	padding: 15px;
+}
+
+.conteudo {
+	display: grid;
+	grid-template-columns: max-content auto;
+	text-align: center;
+	align-items: center;
+}
+.conteudoDireito, .conteudoEsquerdo {
+	display: grid;
+	grid-template-rows: max-content auto;
+	height: 100%;
+	padding: 0 15px
+}
+.conteudoDireito-solicitarMentoria {
+	padding: 30px 0
+}
+
+.conteudoDireito-publicacoes, .conteudoEsquerdo-datasDisponiveis {
+	display: grid;
+	grid-template-rows: max-content auto;
+	padding: 0 0 10px 0
+}
+.conteudoDireito-publicacoes span, .conteudoEsquerdo-datasDisponiveis span {
+	font-size: 25px;
+	font-weight: bold;
+	display: block;
+	cursor: default;
+}
+.conteudoDireito-publicacoes span { margin-top: 30px; text-align: left !important; }
+.conteudoDireito-datasDisponiveis span { text-align: center !important; }
+.conteudoDireito-publicacoes section, .conteudoEsquerdo-datasDisponiveis section {
+	border: #000 1px solid;
+	height: 100%;
+	cursor: default;
+}
+
+.conteudoEsquerdo-calendario {
+	align-items: center;
+	display: grid;
+	text-align: center;
+	padding: 0 0 20px 0
+}
+.conteudoEsquerdo-calendario img {
+	margin: auto;
+}
